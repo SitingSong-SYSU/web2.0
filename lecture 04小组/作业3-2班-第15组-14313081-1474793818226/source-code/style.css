@@ -1,0 +1,312 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#bottom-positioner {
+    width: 35px;
+    height: 35px;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 20%;
+}
+
+#info-bar {
+    opacity: 0;
+    width: 0px;
+    height: 0px;
+    position: relative;
+    border-radius: 50%;
+    background-color: #7E7E7E;
+    overflow: hidden;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    -webkit-transition-delay: 0.3s;
+    -moz-transition-delay: 0.3s;
+    -ms-transition-delay: 0.3s;
+    -o-transition-delay: 0.3s;
+    transition-delay: 0.3s;
+}
+
+#button:hover #info-bar {
+    opacity: 1;
+    width: 120px;
+    height: 120px;
+    -webkit-transition-delay: 0s;
+    -moz-transition-delay: 0s;
+    -ms-transition-delay: 0s;
+    -o-transition-delay: 0s;
+    transition-delay: 0s;
+    -webkit-transform: translate(-36px, -140px);
+    -moz-transform: translate(-36px, -140px);
+    -ms-transform: translate(-36px, -140px);
+    -o-transform: translate(-36px, -140px);
+    transform: translate(-36px, -140px);
+}
+
+.info ul {
+    list-style: none;
+    text-align: center;
+    position: relative;
+    padding-top: 12px;
+}
+
+.user span {
+    color: white;
+    font-size: 22px;
+    padding-left: 5px;
+}
+
+.comment span {
+    color: white;
+    font-size: 30px;
+    padding-left: 10px;
+    font-weight: bolder;
+}
+
+.mine {
+    display: inline;
+    color: #23d89b;
+}
+
+.posted span {
+    padding-left: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.like span {
+    padding-left: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#control-ring-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#control-ring li {
+    position: absolute;
+    left: 0;
+    top: 0;
+    list-style: none;
+}
+
+.mask {
+    background: center url("images/nomask.png") #676767 no-repeat;
+}
+
+#button:hover .mask {
+    -webkit-transition-delay: 0s;
+    -moz-transition-delay: 0s;
+    -ms-transition-delay: 0s;
+    -o-transition-delay: 0s;
+    transition-delay: 0s;
+    -webkit-transform: translate(-60px, -45px);
+    -moz-transform: translate(-60px, -45px);
+    -ms-transform: translate(-60px, -45px);
+    -o-transform: translate(-60px, -45px);
+    transform: translate(-60px, -45px);
+}
+
+.history {
+    background: center url("images/history.png") #676767 no-repeat;
+}
+
+#button:hover .history {
+    -webkit-transition-delay: 0s;
+    -moz-transition-delay: 0s;
+    -ms-transition-delay: 0s;
+    -o-transition-delay: 0s;
+    transition-delay: 0s;
+    -webkit-transform: translate(-72px, -5px);
+    -moz-transform: translate(-72px, -5px);
+    -ms-transform: translate(-72px, -5px);
+    -o-transform: translate(-72px, -5px);
+    transform: translate(-72px, -5px);
+}
+
+.message {
+    background: center url("images/message.png") #676767 no-repeat;
+}
+
+#button:hover .message {
+    -webkit-transition-delay: 0s;
+    -moz-transition-delay: 0s;
+    -ms-transition-delay: 0s;
+    -o-transition-delay: 0s;
+    transition-delay: 0s;
+    -webkit-transform: translate(-56px, 35px);
+    -moz-transform: translate(-56px, 35px);
+    -ms-transform: translate(-56px, 35px);
+    -o-transform: translate(-56px, 35px);
+    transform: translate(-56px, 35px);
+}
+
+.setting {
+    background: center url("images/setting.png") #676767 no-repeat;
+}
+
+#button:hover .setting {
+    -webkit-transition-delay: 0s;
+    -moz-transition-delay: 0s;
+    -ms-transition-delay: 0s;
+    -o-transition-delay: 0s;
+    transition-delay: 0s;
+    -webkit-transform: translate(-19px, 63px);
+    -moz-transform: translate(-19px, 63px);
+    -ms-transform: translate(-19px, 63px);
+    -o-transform: translate(-19px, 63px);
+    transform: translate(-19px, 63px);
+}
+
+.sign {
+    background: center url("images/signin.png") #676767 no-repeat;
+}
+
+#button:hover .sign {
+    -webkit-transition-delay: 0s;
+    -moz-transition-delay: 0s;
+    -ms-transition-delay: 0s;
+    -o-transition-delay: 0s;
+    transition-delay: 0s;
+    -webkit-transform: translate(26px, 57px);
+    -moz-transform: translate(26px, 57px);
+    -ms-transform: translate(26px, 57px);
+    -o-transform: translate(26px, 57px);
+    transform: translate(26px, 57px);
+}
+
+.button {
+    opacity: 0;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    -webkit-transition-delay: 0.3s;
+    -moz-transition-delay: 0.3s;
+    -ms-transition-delay: 0.3s;
+    -o-transition-delay: 0.3s;
+    transition-delay: 0.3s;
+}
+
+#button:hover .button {
+    -webkit-transition-delay: 0s;
+    -moz-transition-delay: 0s;
+    -ms-transition-delay: 0s;
+    -o-transition-delay: 0s;
+    transition-delay: 0s;
+    opacity: 1;
+}
+
+.unread {
+    opacity: 0;
+    margin-right: -4px;
+    color: #ffffff;
+    float: right;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    text-align: center;
+    background: #FE3A3C;
+    -webkit-transition-delay: 0s;
+    -moz-transition-delay: 0s;
+    -ms-transition-delay: 0s;
+    -o-transition-delay: 0s;
+    transition-delay: 0s;
+}
+
+#button:hover .unread {
+    opacity: 1;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+
+.apb {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    opacity: 0.5;
+    overflow: hidden;
+    background-color: #303f9f;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    -webkit-transition-delay: 0.8s;
+    -moz-transition-delay: 0.8s;
+    -ms-transition-delay: 0.8s;
+    -o-transition-delay: 0.8s;
+    transition-delay: 0.8s;
+
+}
+
+#button:hover .apb {
+    opacity: 1;
+    -webkit-transition-delay: 0s;
+    -moz-transition-delay: 0s;
+    -ms-transition-delay: 0s;
+    -o-transition-delay: 0s;
+    transition-delay: 0s;
+    -webkit-transform: scale(1.45);
+    -moz-transform: scale(1.45);
+    -ms-transform: scale(1.45);
+    -o-transform: scale(1.45);
+    transform: scale(1.45);
+
+}
+
+
+.icon {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 35px;
+    width: 35px;
+    opacity: 1;
+    border-radius: 50%;
+    background: url("images/atplus_white.png") no-repeat center;
+    background-size: 28px 20px;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    transition: all 0.8s;
+    -webkit-transition-delay: 1s;
+    -moz-transition-delay: 1s;
+    -ms-transition-delay: 1s;
+    -o-transition-delay: 1s;
+    transition-delay: 1s;
+}
+
+#button:hover .icon {
+    opacity: 1;
+    -webkit-transition-delay: 0s;
+    -moz-transition-delay: 0s;
+    -ms-transition-delay: 0s;
+    -o-transition-delay: 0s;
+    transition-delay: 0s;
+    background: url("images/atplus_green.png") no-repeat center;
+    background-size: 28px 20px;
+}
+
+

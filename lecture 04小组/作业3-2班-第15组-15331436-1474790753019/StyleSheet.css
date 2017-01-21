@@ -1,0 +1,231 @@
+﻿body
+{
+    text-align: center;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+#at-plus-container {
+    background-color: rgba(240, 240, 240, 1);
+    display: block;
+    border-radius: 50%;
+    position: fixed;
+    left: 50%;
+    bottom: 30%;    
+    width: 0;
+    height: 0;
+}
+
+#bottom-positioner {
+    position: relative;
+    left: -120px;
+}
+
+#info-bar {
+    display: inline-block;
+    background-color: gray;
+    border-radius: 50%;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    overflow: hidden;
+}
+
+#control-ring-container {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    top: 20px;
+    left: 20px;
+}
+
+#control-ring li {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-repeat: no-repeat;
+    background-color: rgba(127, 127, 127, 1);
+    border-radius: 50%;
+    background-position: center;
+}
+
+.mask {
+    background-image: url("assets/images/nomask.png");
+}
+
+.history {
+    background-image: url("assets/images/history.png");
+}
+
+.message {
+    background-image: url("assets/images/message.png");
+}
+
+.setting {
+    background-image: url("assets/images/setting.png");
+}
+
+.sign {
+    background-image: url("assets/images/signout.png");
+}
+
+.icon {
+    background-image: url("assets/images/atplus_white.png");
+    background-color: rgb(151, 156, 210);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    background-repeat: no-repeat;    
+    background-position: center;
+    background-size: 28px 20px;
+}
+
+#info-bar img {
+    vertical-align: middle;
+}
+
+#info-bar li {
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 5px;
+}
+
+#info-bar li span {
+    margin-left: 5px;
+}
+
+.mine {
+    display: inline-block;
+    color: #079E6E;
+    font-weight :bold;
+}
+
+.page {
+    color: white;
+}
+
+.user {
+    margin: 10px auto 0 auto;
+}
+
+.comment {
+    font-size: 30px;
+}
+
+/*positioning*/
+
+#info-bar, #control-ring li, .apb {
+    position: absolute;
+}
+
+.unread {
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    height: 23px;
+	line-height: 23px;
+    width: 23px;
+    display: inline-block;
+    position: absolute;
+    top: -7px;
+    right: -7px;
+}
+
+.apb {
+    top: 100px;
+    left: 100px;
+    z-index: 2;
+}
+
+#info-bar {
+    bottom: 80px;
+    left: 120px;
+}
+
+.mask {
+    top: 35px;
+    left: 15px;
+}
+
+.history {
+    top: 80px;
+    left: 0px;
+}
+
+.message {
+    top: 128px;
+    left: 15px;
+}
+
+.setting {
+    top: 158px;
+    left: 65px;
+}
+
+.sign {
+    top: 148px;
+    left: 122px;
+}
+
+#info-bar, #control-ring-container {
+    transition: background-color 0.5s, transform 0.5s, opacity 0.5s;
+}
+
+.apb {
+    transition: background-color 0.5s 0.2s, transform 0.5s 0.2s, opacity 0.5s 0.2s, background-image 0.5s 0.2s;
+}
+
+.icon {
+    transition: background-color 0.5s 0.2s, transform 0.5s 0.2s, background-image 0.5s 0.2s;
+}
+
+#info-bar {
+    transition: all 0.5s;
+    opacity: 0;
+}
+
+#control-ring-container {
+    transform: scale(0);
+    opacity: 0;
+}
+
+/*animations*/
+#at-plus-container:hover .icon {
+    transition: background-color 0.5s, transform 0.5s, background-image 0.5s;
+    background-color : rgba(48, 63, 159, 1);
+    background-image: url("assets/images/atplus_green.png");
+}
+
+#at-plus-container:hover .apb {  
+    transition: background-color 0.5s, transform 0.5s, opacity 0.5s;
+    transform: scale(1.5);
+}
+
+#at-plus-container:hover #control-ring-container {
+    transition: background-color 0.5s 0.2s, transform 0.5s 0.2s, opacity 0.5s 0.2s;
+    transform: scale(1);
+    opacity: 1;
+}
+
+#at-plus-container:hover #info-bar {   
+    bottom: 130px;
+    left: 60px;
+    transition: all 0.5s 0.2s;
+    width: 120px;
+    height: 120px;
+    opacity: 1;
+}
+
+#control-ring li:hover {
+    transition: background-color 0.5s;  
+    background-color: rgb(76, 76, 76);
+}

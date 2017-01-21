@@ -1,0 +1,237 @@
+/* Name:黄燕蓝;
+** StudentID: 15331121;
+** Direction: Homework3, css for ring index.html;
+*/
+
+#at-plus-container {
+	height: 100%;
+	width: 100%;
+	font-family: arial, sans-serif;
+}
+/* 都有的格式 */
+ul{
+	padding-left: 0;
+	list-style-type: none;
+} 
+
+img {
+	margin: 9px;
+	vertical-align: middle;
+}
+/* at 按钮 最初格式	*/
+#button {
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-o-border-radius: 50%;
+	height: 35px;
+	width: 35px;
+
+	background: #B0C4DE url("images/atplus_white.png") no-repeat center; 
+	background-size: 80%;
+
+	-webkit-transition: 0.6s ease;
+  	-moz-transition: 0.6s ease;
+  	-o-transition: 0.6s ease;
+	transition:0.6s ease;
+
+	-wekit-transition-delay:1s;
+	-moz-transition-delay: 1s;
+  	-o-transition-delay:1s;
+	transition-delay: 1s;
+	z-index: 2;
+}
+
+#button:hover{
+	top: 78%;
+	left: 49%;
+	width: 60px;
+	height: 60px;
+	background: rgba(48, 63, 159, 1) url("images/atplus_green.png") no-repeat center;	
+	background-size: 70%;
+
+	-wekit-transition-delay:0.3s;
+	-moz-transition-delay: 0.3s;
+  	-o-transition-delay:0.3s;
+	transition-delay: 0.3s;
+}
+
+/* 大个圆圈里的格式设置 */
+#info-bar {
+	opacity: 0;
+	height: 35px;
+	width: 35px;
+	background-color: #808080;
+		
+	position: absolute;
+	top:0%;
+	left: 0%;	
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-o-border-radius: 50%;
+
+
+	-webkit-transition: 0.5s ease;
+  	-moz-transition: 0.5s ease;
+  	-o-transition: 0.5s ease;
+	transition:0.5s ease;
+	
+	-wekit-transition-delay:0.4s;
+	-moz-transition-delay: 0.4s;
+  	-o-transition-delay:0.4s;
+	transition-delay: 0.4s;
+	
+}
+
+#button:hover #info-bar {
+	opacity: 1;
+	width: 150px;
+	height: 150px;
+	float: top;
+	top: -300%;
+	left: -80%;
+	/*
+	transform: scale(1);
+	*/
+}
+
+#info-bar ul>span {
+	margin-left: 8px;
+	vertical-align: middle;
+	display: inline-block;
+	height: 100%;
+}
+
+.page {
+	color: white;
+}
+.mine {
+	color: #00FF00;
+}
+.user {
+	position: absolute;
+	left: 30%;
+	top: 6%;
+	font-size: 20px;
+}
+
+.comment {
+	position: absolute;
+	left: 25%;
+	top: 33%;
+	font-size: 30px;
+}
+
+.posted {
+	position: absolute;
+	left: 15%;
+	top: 60%;
+}
+
+.like {
+	position: absolute;
+	left: 50%;
+	top: 60%;
+}
+
+/* 小个圆圈的格式设置 */
+#control-ring >li {
+	opacity: 0;
+	position: absolute;
+	left: 0%;
+	top: 0%;
+
+	text-align: center;
+	vertical-align: center;
+	background-color: #808080;
+	width: 40px;
+	height: 40px;
+	background-size: 80%;
+
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-o-border-radius: 50%;
+
+	-webkit-transition: 0.5s ease;
+  	-moz-transition: 0.5s  ease;
+  	-o-transition: 0.5s  ease;
+	transition:0.5s ease;
+
+	-wekit-transition-delay: 0.4s;
+	-moz-transition-delay: 0.4s;
+  	-o-transition-delay: 0.4s;
+	transition-delay: 0.4s;
+}
+
+/* 未读消息 小红圈的设置*/
+.unread {
+	background-color: red;
+	width: 20px;
+	height: 17px;
+	
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-o-border-radius: 50%;
+	color: white;
+
+	z-index: 3;
+	position: absolute;
+	top:-20%;
+	left: 65%;
+
+	font-size: 10px;
+	padding-top:3px;
+}
+
+/* 各个小圆圈 显示时的位置 */
+#button:hover >div .mask{
+	opacity: 1;
+	top: -40%;
+	left: -110%;
+}
+
+#button:hover >div .history{
+	opacity: 1;
+	top: 40%;
+	left: -135%;
+}
+
+#button:hover >div .message{
+	opacity: 1;
+	top: 120%;
+	left: -100%;
+}
+
+#button:hover >div .setting{
+	opacity: 1;
+	top: 160%;
+	left: -20%;
+}
+
+#button:hover >div .sign{
+	/* 作业视频中, 箭号是指向里面的, 作业里的图片,是指向外面的 
+	*	-moz-transform:scaleX(-1);
+    *	-webkit-transform:scaleX(-1);
+    *	-o-transform:scaleX(-1);
+    *	transform:scaleX(-1); 
+    *	这样修改无效。
+    */
+	opacity: 1;
+	top: 150%;
+	left: 70%;
+}
+
+/* at外其他圈 被触及时的效果 */
+#info-bar:hover {
+	background-color: #696969;
+}
+#control-ring li:hover {
+	background-color: #696969;
+}
