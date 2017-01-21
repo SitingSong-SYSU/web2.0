@@ -1,0 +1,178 @@
+/*
+name: Song Siting
+class time: Wednesday 19:00
+group: 7
+*/
+
+body {
+	background-image: url("pic/kitchen.jpg");
+	background-repeat: no-repeat;
+	background-size: 1024px 768px;
+}
+
+div.maindiv {
+	width: 100%;
+	height: auto;
+}
+
+.modal-window {
+	position:fixed;
+ 	background-color: rgba(200,200,200,0.75);
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	z-index:999;
+	opacity:0;
+	pointer-events:none;
+	-webkit-transition:all 0.3s;
+	-moz-transition:all 0.3s;
+	transition:all 0.3s;
+}
+.modal-window:target {
+	opacity:1;
+	pointer-events:auto;
+}
+
+.modal-window div {
+	width: 400px;
+	position: relative;
+	margin: 10% auto;
+	padding: 2rem;
+	background: #fff;
+	color: #444;
+}
+
+.modal-window p {
+    background-color: white;
+    color: #A4A400;
+    font-weight: normal;
+    font-size: 15pt;
+    font-family: Century Gothic, Futura, Verdana, sans-serif;
+}
+
+.modal-window header {
+	font-weight:bold;
+}
+
+.modal-close {
+	color:#aaa;
+	line-height:50px;
+	font-size:80%;
+	position:absolute;
+	right:0;
+	text-align:center;
+	top:0;
+	width:70px;
+	text-decoration:none;
+}
+
+.modal-close:hover {
+	color:#000;
+}
+
+.modal-window h1 {
+    text-align: center;
+    background-color: white;
+    color: #A4A400;
+    font-weight: bold;
+    font-size: 22pt;
+    font-family: Century Gothic, Futura, Verdana, sans-serif;
+    text-decoration: underline;
+    letter-spacing: 0.2em;
+}
+
+a.pie {
+	position: absolute;
+	left: 200px;
+	top: 600px;
+	right: 600px;
+	bottom: 100px;
+}
+
+a.milk {
+	position: absolute;
+	left: 780px;
+	top: 100px;
+	right: 200px;
+	bottom: 600px;
+}
+
+a.makalon {
+	position: absolute;
+	left: 50px;
+	top: 375px;
+	right: 850px;
+	bottom: 300px;
+}
+
+a.juice {
+	position: absolute;
+	left: 50px;
+	top: 500px;
+	right: 850px;
+	bottom: 100px;
+}
+
+a.coffee {
+	position: absolute;
+	left: 600px;
+	top: 360px;
+	right: 300px;
+	bottom: 340px;
+}
+
+a.buding {
+	position: absolute;
+	left: 430px;
+	top: 560px;
+	right: 400px;
+	bottom: 100px;
+}
+
+a.read_me {
+	position: absolute;
+	left: 805px;
+	top: 212px;
+	right: 200px;
+	bottom: 500px;
+}
+
+.maindiv img:hover {
+	transform: scale(1.2);
+}
+
+img.pie {
+	width: 180px;
+	height: auto;
+}
+
+img.milk {
+	width: 80px;
+	height: auto;
+}
+
+img.makalon {
+	width: 100px;
+	height: auto;
+}
+
+img.juice {
+	width: 150px;
+	height: auto;
+}
+
+img.coffee {
+	width: 80px;
+	height: auto;
+}
+
+img.buding {
+	width: 230px;
+	height: auto;
+}
+
+img.read_me {
+	width: 230px;
+	height: auto;
+}

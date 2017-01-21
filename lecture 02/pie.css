@@ -1,0 +1,79 @@
+/*
+name: Song Siting
+class time: Wednesday 19:00
+group: 7
+*/
+
+h1 {
+    text-align: center;
+    background-color: #F0F0F0;
+    color: #A4A400;
+    font-weight: bold;
+    font-size: 22pt;
+    font-family: Century Gothic, Futura, Verdana, sans-serif;
+    text-decoration: underline;
+    letter-spacing: 0.2em;
+}
+
+h2 {
+    background-color: #F0F0F0;
+    color: #A4A400;
+    font-weight: normal;
+    font-size: 18pt;
+    font-family: Century Gothic, Futura, Verdana, sans-serif;
+    text-decoration: underline;
+    letter-spacing: 0.2em;
+}
+
+body {
+	background-image:url(http://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/silverware.jpg);
+}
+
+ul {
+	list-style-image:url(http://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/pie_icon.gif);
+}
+
+p {
+	background-color: white;
+	color: #404040;
+	font-size: 11pt;
+	font-family: Georgia, Garamond, serif;
+}
+
+li {
+	background-color: white;
+	color: #404040;
+	font-size: 11pt;
+	font-family: Georgia, Garamond, serif;
+}
+
+p.quotations {
+	background-color: #FFFFC8;
+	color: #404040;
+	font-style: italic;
+	font-size: 11pt;
+	font-family: Georgia, Garamond, serif;
+	margin: auto;
+	width: 90%;
+	padding-left: 10pt;
+}
+
+a.linker {
+	background-color: white;
+	color: #A4A400;
+	font-family: Georgia, serif;
+	font-size: 11pt;
+}
+
+a:link {color: #A4A400;}    /* 未被访问的链接 */
+a:visited {color: #A4A400;} /* 已被访问的链接 */
+a:hover {color: #A4A400;}   /* 鼠标指针移动到链接上 */
+a:active {color: #A4A400;}  /* 正在被点击的链接 */
+
+img {
+	border: 0;
+}
+
+span.str {
+	font-weight: bold;
+}

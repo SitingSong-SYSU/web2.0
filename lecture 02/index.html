@@ -1,0 +1,66 @@
+<!--
+name: Song Siting
+class time: Wednesday 19:00
+group: 7
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Grandma's Kitchen</title>
+	<link href="http://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/pie_icon.gif"
+	rel="shortcut icon" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<script>
+	    window.console = window.console || function(t) {};
+	    window.open = function(){ console.log('window.open is disabled.'); };
+	    window.print = function(){ console.log('window.print is disabled.'); };
+	    // Support hover state for mobile.
+	    if (false) {
+	      window.ontouchstart = function(){};
+	    }
+  </script>
+</head>
+
+<body>
+
+<div class="maindiv">
+	<a href="#open-modal"  class="read_me">
+		<img class="resd_me" src="pic/read_me.png" alt="read_me" />
+	</a>
+	<div id="open-modal" class="modal-window">
+	    <div>
+	        <a href="#modal-close" title="Close" class="modal-close">Close</a>
+	    	<h1>Grandma's Kitchen</h1>
+	    	<p>Click the food and get the recipes</p>
+	    </div>
+	</div>
+
+	<script>
+		if (document.location.search.match(/type=embed/gi)) {
+			window.parent.postMessage('resize', "*");
+		}
+	</script>
+
+	<a href="pie.html" class="pie">
+		<img class="pie" src="pic/lemon_pie.png" alt="lemon_pie" />
+	</a>
+	<a href="" class="milk">
+		<img class="milk" src="pic/milk.png" alt="milk" />
+	</a>
+	<a href="" class="makalon">
+		<img class="makalon" src="pic/makalon.png" alt="makalon" />
+	</a>
+	<a href="" class="juice">
+		<img class="juice" src="pic/juice.png" alt="juice" />
+	</a>
+	<a href="" class="coffee">
+		<img class="coffee" src="pic/coffee.png" alt="coffee" />
+	</a>
+	<a href="" class="buding">
+		<img class="buding" src="pic/buding.png" alt="buding" />
+	</a>
+</div>
+
+</body>
+</html>
