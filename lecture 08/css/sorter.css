@@ -1,0 +1,40 @@
+body {
+	font-family: Arial;
+}
+
+h1, h2, table {
+	margin-left: 20px;
+	border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+    color: white;
+    background-color: #031B7D;
+}
+
+th, td {
+    border: 1px solid rgb(200, 200, 200);
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    -webkit-user-select: none;
+}
+
+#staff th {
+	padding-right: 40px;
+}
+
+.alternate {
+    background-color: #DDDDDD;
+}
+
+.up {
+    background: url('../image/ascend.png') #A4B0FC no-repeat right;
+}
+
+.down {
+    background: #A4B0FC url('../image/descend.png') no-repeat 95%;
+}
