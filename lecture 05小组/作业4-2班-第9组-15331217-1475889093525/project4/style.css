@@ -1,0 +1,61 @@
+body {
+	background-color: #cedcea;
+}
+
+h1 {
+	text-align: center;
+	font-size: 41px;
+	color: #0e67ba;
+	font-weight: bold;
+	font-family: Matura MT Script Capitals, SimHei;
+}
+
+#mainpart {
+	border-radius: 35px;
+	width: 320px;
+	height: 414px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #9eb0c1;
+}
+
+#display-window {
+	width: 320px;
+	height: 64px;
+	margin: 0;
+	padding: 0;
+}
+
+.display {
+	width: 310px;
+	height: 64px;
+	margin: 0;
+	padding: 0;
+	text-align: right;
+	background-color: transparent;
+	border-style: none;
+	border-radius: 35px 20px 0px 0px;
+	font-size: 25px;
+	font-weight: bold;
+    font-family: Matura MT Script Capitals, SimHei;
+}
+button {
+	border-radius: 15px;
+	display: inline-block;
+	width: 80px;
+	height: 70px;
+	margin: 0;
+	padding: 0;
+	background-color: #6699c9;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: Matura MT Script Capitals, SimHei;
+}
+
+#calresult {
+	border-radius: 15px 15px 35px 15px;
+}
+
+#leftbottom {
+	border-radius: 15px 15px 15px 35px;
+}

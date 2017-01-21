@@ -1,0 +1,118 @@
+/*
+
+name: Chen Xiangyi
+class: 1
+student ID: 15331034
+class time: Wednesday evening
+group: 9
+
+*/
+
+/*基本设置*/
+body {
+  font-family: Comic Sans MS, sans-serif;
+  text-align: center;
+  overflow: hidden;
+  min-height: 550px;
+  min-width: 400px;
+}
+
+#decorationORextra {
+  background-color: #7FFFD4;
+}
+/*计算器位置与大小*/
+#calculator {
+  border: solid;
+  border-radius: 17px;
+	position: fixed;
+  margin: 0;
+  padding: 0;
+  left: calc(50% - 174.5px);
+  top: calc(50% - 216px);
+  width: 334px;
+  height: 432px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+}
+/*结果显示的位置与大小*/
+#output input {
+  margin: 40px 10px;
+  height: 40px;
+  width: 290px;
+  text-align: right;
+  font-size: 30px;
+  border: none;
+}
+/*数字按钮*/
+#numbersANDequal {
+  border-bottom-left-radius: 15px;
+  float: left;
+  width: 207px;
+  height: 310px;
+}
+/*操作按钮*/
+#operation1, #operation2 {
+  float: left;
+  width: 54px;
+  height: 310px;
+}
+/*装饰*/
+#decorationORextra {
+  border-bottom-right-radius: 15px;
+  float: right;
+  width: 19px;
+  height: 310px;
+}
+/*数字按钮大小颜色设置*/
+#numbersANDequal button {
+  outline: none;
+  color: white;
+  border: none;
+  float: left;
+  width: 69px;
+  height: 77.5px;
+  margin: 0;
+  display: inline;
+  font-size: 30px;
+  background-color: rgb(90, 90, 90);
+  transition: 0.5s;
+}
+/*小数点操作按钮圆角设置*/
+#dot {
+  border-bottom-left-radius: 15px;
+}
+/*操作按钮大小颜色设置*/
+#operation1 button, #operation2 button {
+  outline: none;
+  color: white;
+  border: none;
+  float: left;
+  width: 54px;
+  height: 77.5px;
+  margin: 0;
+  display: inline;
+  font-size: 17px;
+  background-color: rgb(130, 130, 130);
+}
+/*指向所有按钮时*/
+button:hover {
+  cursor: pointer;
+  transition: 0.5s;
+}
+/*指向数字按钮时*/
+#numbersANDequal button:hover {
+  background-color: rgb(110, 110, 110);
+}
+/*指向操作按钮时*/
+#operation1 button:hover, #operation2 button:hover {
+  background-color: rgb(110, 110, 110);
+}
+/*点击数字按钮时*/
+#numbersANDequal button:active {
+  background-color: rgb(50, 50, 50);
+  outline: none;
+}
+/*点击操作按钮时*/
+#operation1 button:active, #operation2 button:hover {
+  background-color: rgb(200, 200, 200);
+  outline: none;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<title>my calculater</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="shortcut icon" type="image/gif" href="">
+		<script type="text/javascript" src="jsforcalculater.js"></script>
+		<!-- sync -->
+		<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+
+	</head>
+	<body>
+		<div id="block">
+			<div id="name">简单计算器</div>
+			<div id="cal-frame">
+				<div id="inputbar">
+					<input type="text" disabled="disabled" id="inputc" value=""> 
+				</div>
+				<div id="buttons">
+					<button onclick="loadstring(this)">7</button>
+					<button onclick="loadstring(this)">8</button>
+					<button onclick="loadstring(this)">9</button>
+					<button onclick="loadstring(this)">/</button>
+					<br>
+
+					<button onclick="loadstring(this)">4</button>
+					<button onclick="loadstring(this)">5</button>
+					<button onclick="loadstring(this)">6</button>
+					<button onclick="loadstring(this)">*</button>
+					<br>
+
+					<button onclick="loadstring(this)">1</button>
+					<button onclick="loadstring(this)">2</button>
+					<button onclick="loadstring(this)">3</button>
+					<button onclick="loadstring(this)">-</button>
+					<br>
+
+					<button onclick="loadstring(this)">0</button>
+					<button onclick="loadstring(this)">.</button>
+					<button onclick="wipeone()"><-</button>
+					<button onclick="loadstring(this)">+</button>
+					<br>
+
+					<button onclick="loadstring(this)">(</button>
+					<button onclick="loadstring(this)">)</button>
+					<button onclick="clearall()">CE</button>
+					<button onclick="calculate(this)">=</button>
+					
+				</div>
+			</div>
+		</div>	
+	</body>
+</html>

@@ -1,0 +1,60 @@
+html body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
+#block{
+	position: relative;
+	width: 555px;
+	height: 583px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 237px;
+}
+
+
+
+#cal-frame{
+	width: 478px;
+	height: 456px;
+	border: 2px solid black;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#name{
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #4DA14B;
+}
+
+input{
+	position: relative;
+	left: 19px;
+	width: 435px;
+	height: 33px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+button{
+	margin-left: 11.5px;
+	margin-top: 8px;
+	width: 99px;
+	height:  66px;
+    font-size: 30px;
+    padding: 0;
+}

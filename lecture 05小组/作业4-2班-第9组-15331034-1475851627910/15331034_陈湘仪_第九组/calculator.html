@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<!--
+
+name: Chen Xiangyi
+class: 1
+student ID: 15331034
+class time: Wednesday evening
+group: 9
+
+-->
+
+<html>
+  <head>
+    <title>My calculator</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link href="index.css" type="text/css" rel="stylesheet" media="screen" />
+    <script src="calculate.js" type="text/javascript"> </script>
+  </head>
+  <body>
+    <div id="calculator">
+      <div id="output">
+      <input type="text" name="number" value="0" id="outp" onfocus="this.blur();">
+      </div>
+
+      <div id="numbersANDequal">
+        <button onclick="check('7')">7</button>
+        <button onclick="check('8')">8</button>
+        <button onclick="check('9')">9</button>
+        <button onclick="check('4')">4</button>
+        <button onclick="check('5')">5</button>
+        <button onclick="check('6')">6</button>
+        <button onclick="check('1')">1</button>
+        <button onclick="check('2')">2</button>
+        <button onclick="check('3')">3</button>
+        <button id="dot" onclick="check('.')">.</button>
+        <button onclick="check('0')">0</button>
+        <button onclick="check('=')">=</button>
+      </div>
+
+      <div id="operation1">
+        <button onclick="check('/')">/</button>
+        <button onclick="check('*')">*</button>
+        <button onclick="check('-')">-</button>
+        <button onclick="check('+')">+</button>
+      </div>
+
+      <div id="operation2">
+        <button onclick="check('d')">←</button>
+        <button onclick="check('(')">(</button>
+        <button onclick="check(')')">)</button>
+        <button onclick="check('c')">CE</button>
+      </div>
+
+      <div id="decorationORextra">
+      </div>
+
+    </div>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> simple calculator</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="shortcut icon" type="image/jpg" href="image/icon.jpg">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="calculator.js"></script>
+</head>
+<body>
+    <h1> simple calculator </h1>
+    <div id="mainpart">
+    	<div id="display-window">
+    		<input type="text" name="display" class="display" value="" disabled="disabled">
+    	</div>
+
+    	<div id="calculator-button">
+    	    <button onclick="getsinglebutton(7)">7</button><!--
+    	    --><button onclick="getsinglebutton(8)">8</button><!--
+    	    --><button onclick="getsinglebutton(9)">9</button><!--
+    	    --><button onclick="getsinglebutton('/')">/</button><!--
+    	    --><button onclick="getsinglebutton(4)">4</button><!--
+    	    --><button onclick="getsinglebutton(5)">5</button><!--
+    	    --><button onclick="getsinglebutton(6)">6</button><!--
+            --><button onclick="getsinglebutton('*')">*</button><!--
+            --><button onclick="getsinglebutton(1)">1</button><!--
+            --><button onclick="getsinglebutton(2)">2</button><!--   
+            --><button onclick="getsinglebutton(3)">3</button><!--
+            --><button onclick="getsinglebutton('-')">-</button><!--
+            --><button onclick="getsinglebutton(0)">0</button><!--
+            --><button onclick="getsinglebutton('.')">.</button><!--
+            --><button id="delete">←</button><!--
+            --><button onclick="getsinglebutton('+')">+</button><!--
+            --><button id="leftbottom" onclick="getsinglebutton('(')">(</button><!--
+            --><button onclick="getsinglebutton(')')">)</button><!--
+            --><button id="clearwindow">CE</button><!--
+            --><button id="calresult">=</button>
+    	</div>
+    </div>
+
+</body>
+</html>
