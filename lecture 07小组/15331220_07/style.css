@@ -1,0 +1,169 @@
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    width: 410px;
+    font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+}
+
+h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+#form {
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 400px;
+    position: relative;
+}
+
+#restart {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 140px;
+    margin-right: 140px;
+    height: 45px;
+    width: 120px;
+    display: inline-block;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+    color: aliceblue;
+    font-size: 14pt;
+    font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+    background-color: #F69100;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	border-radius: .5em;
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+
+#restart:hover {
+    text-decoration: none;
+    background-color: #F06314;
+    transition: 0.1s ease-in-out;
+}
+
+#restart:active {
+    position: relative;
+	top: 1px;
+    background-color: #FAA21B;
+}
+
+.picture {
+    height: 98px;
+    width: 98px;
+    border: 1px gray solid;
+    position: absolute;
+    background-image: url(image/u=2598993112,1657464601&fm=21&gp=0.jpg);
+    background-size: 400px 400px;
+    
+}
+
+.picture:hover {
+    transition: 0.1s ease-in-out;
+    transform: scale(1.1);
+    z-index: 9999;
+}
+
+#p1 {
+    background-position: 0px 0px;
+}
+
+#p2 {
+    background-position: -100px 0px;
+}
+
+#p3 {
+    background-position: -200px 0px;
+}
+
+#p4 {
+    background-position: -300px 0px;
+}
+
+#p5 {
+    background-position: 0px -100px;
+}
+
+#p6 {
+    background-position: -100px -100px;
+}
+
+#p7 {
+    background-position: -200px -100px;
+}
+
+#p8 {
+    background-position: -300px -100px;
+}
+
+#p9 {
+    background-position: 0px -200px;
+}
+
+#p10 {
+    background-position: -100px -200px;
+}
+
+#p11 {
+    background-position: -200px -200px;
+}
+
+#p12 {
+    background-position: -300px -200px;
+}
+
+#p13 {
+    background-position: 0px -300px;
+}
+
+#p14 {
+    background-position: -100px -300px;
+}
+
+#p15 {
+    background-position: -200px -300px;
+}
+
+.blank {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
+
+.row1 {
+    top: 0px;
+}
+
+.row2 {
+    top: 100px;
+}
+
+.row3 {
+    top: 200px;
+}
+
+.row4 {
+    top: 300px;
+}
+
+.col1 {
+    left: 0px;
+}
+
+.col2 {
+    left: 100px;
+}
+
+.col3 {
+    left: 200px;
+}
+
+.col4 {
+    left: 300px;
+}

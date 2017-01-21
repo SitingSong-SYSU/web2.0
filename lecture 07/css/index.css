@@ -1,0 +1,96 @@
+body {
+    font-family: Arial Unicode MS;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+#vvgBox {
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#gameCanvas {
+    position: relative;
+    padding: 0;
+    margin: 10px auto;
+    width: 360px;
+    height: 360px;
+}
+
+#gameCanvas li {
+    position: absolute;
+    list-style: none;
+    border: 1px solid #B8B8B8;
+    background-image: url("../image/panda.jpg");
+    width: 88px;
+    height: 88px;
+}
+
+#gameCanvas li:hover {
+    transform: scale(1.03);
+}
+
+#restart {
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    color: white;
+    margin: 20px auto;
+    text-align: center;
+    background-color: #4385F6;
+    box-shadow: 5px 5px 5px #888888;
+    cursor: pointer;
+    transform: scale(1);
+}
+
+#restart:hover {
+    transform: scale(1.05);
+}
+
+#cheatBtn {
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    color: white;
+    margin: 20px auto;
+    text-align: center;
+    background-color: #4385F6;
+    box-shadow: 5px 5px 5px #888888;
+    cursor: pointer;
+    transform: scale(1);
+}
+
+#cheatBtn:hover {
+    transform: scale(1.05);
+}
+
+.background-img0 {background-position: 0 0;}
+.background-img1 {background-position: 264px 0;}
+.background-img2 {background-position: 176px 0;}
+.background-img3 {background-position: 88px 0;}
+.background-img4 {background-position: 0 264px;}
+.background-img5 {background-position: 267px 264px;}
+.background-img6 {background-position: 176px 264px;}
+.background-img7 {background-position: 88px 264px;}
+.background-img8 {background-position: 0 176px;}
+.background-img9 {background-position: 264px 176px;}
+.background-img10 {background-position: 176px 176px;}
+.background-img11 {background-position: 88px 176px;}
+.background-img12 {background-position: 0 88px;}
+.background-img13 {background-position: 264px 88px;}
+.background-img14 {background-position: 176px 88px;}
+.background-img15 {opacity: 0;}
+
+.col0 {left: 0; transition: all 0.3s ease-in-out;}
+.col1 {left: 90px; transition: all 0.3s ease-in-out;}
+.col2 {left: 180px; transition: all 0.3s ease-in-out;}
+.col3 {left: 270px; transition: all 0.3s ease-in-out;}
+.row0 {top: 0; transition: all 0.3s ease-in-out;}
+.row1 {top: 90px; transition: all 0.3s ease-in-out;}
+.row2 {top: 180px; transition: all 0.3s ease-in-out;}
+.row3 {top: 270px; transition: all 0.3s ease-in-out;}
