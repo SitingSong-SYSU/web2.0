@@ -1,0 +1,49 @@
+extends layout
+
+block content
+	h1 注册用户
+	form#signup(method='post')
+		if error
+			div.error!= error
+		div.field
+			label(for='username') 用户名
+			input(id='username' name='username')
+			br
+			span.error
+
+		div.field
+			label(for='password') 密码
+			input(id='password' name='password' type='password')
+			br
+			span.error
+
+		div.field
+			label(for='repeat-password') 重复密码
+			input(id='repeat-password' type='password')
+			br
+			span.error
+
+		div.field
+			label(for='sid') 学号
+			input(id='sid' name='sid')
+			br
+			span.error
+
+		div.field
+			label(for='phone') 电话
+			input(id='phone' name='phone')
+			br
+			span.error
+
+		div.field
+			label(for='email') 邮箱
+			input(id='email' name='email')
+			br
+			span.error
+
+		div.button
+			input.button.reset(type="reset" value="清除")
+			input.button.submit(type="submit" value="提交")
+			a.signout(href="http://127.0.0.1:8000/signin" type="signout") 登录
+	script(type='text/javascript' src='javascripts/validator.js')
+	script(type='text/javascript' src='javascripts/signup.js')
