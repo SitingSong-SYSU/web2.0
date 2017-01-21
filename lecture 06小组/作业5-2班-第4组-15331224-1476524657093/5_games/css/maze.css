@@ -1,0 +1,111 @@
+/* Supporting line */
+div {
+  /*border: 1px solid red;*/
+}
+
+body {
+  font-family: "Microsoft Yahei", sans-serif;
+}
+
+h1,h2 {
+  text-align: center;
+}
+
+.game-tip.hidden {
+  opacity: 0;
+}
+
+.game-tip {
+  transition: all 0.5s;
+}
+
+.main-container {
+  width: 930px;
+  height: 100%;
+  margin: auto;
+}
+
+.maze {
+  width: 500px;
+  height: 300px;
+  margin: auto;
+  position: relative;
+}
+
+.wall {
+  background: #EEEEEE;
+  border: 1px solid black;
+  position: absolute;
+}
+
+.wall-square {
+  width: 150px;
+  height: 150px;
+  border-top: 0;
+}
+
+.wall-long {
+  width: 498px;
+  height: 50px;
+}
+
+.wall-rect {
+  width: 100px;
+  height: 150px;
+}
+
+.wall-left {
+  top: 51px;
+  left: 0;
+}
+
+.wall-right {
+  right: 0;
+  top: 51px;
+}
+
+.wall-bottom {
+  bottom: 0;
+}
+
+.wall-mid {
+  bottom: 51px;
+  left: 200px;
+  border-bottom: 0;
+}
+
+.wall-sample {
+  width: 100px;
+  height: 26px;
+  margin: auto;
+  position: initial;
+}
+
+.wall.wall-error {
+  background-color: red;
+}
+
+.mark {
+  position: absolute;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 24pt;
+  width: 40px;
+  height: 40px;
+  bottom: 54px;
+}
+
+.start {
+  background-color: #86FC84;
+  left: 0;
+}
+
+.end {
+  background-color: #8685FD;
+  right: 0;
+}
+
+.tips {
+  width: 600px;
+  margin: auto;
+}

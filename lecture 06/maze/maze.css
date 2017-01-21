@@ -1,0 +1,172 @@
+body {
+	font-family: Century Gothic, sans-serif;
+}
+
+p {
+	text-align: center;
+	font-size: 24px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 40px;
+	font-weight: normal;
+}
+
+#msg {
+	width: 1000px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 24px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#maze {
+	width: 500px;
+	height: 300px;
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+	cursor: pointer;
+}
+
+#maze div {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+}
+
+div.wall {
+	background-color: #eeeeee;
+	cursor: auto;
+}
+
+#up-left {
+	width: 149px;
+	height: 49px;
+	left: 0;
+	top: 0;
+	border-left: 1px solid black;
+	border-top: 1px solid black;
+}
+
+#up-middle {
+	width: 200px;
+	height: 48px;
+	left: 150px;
+	top: 0;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+#up-right {
+	width: 149px;
+	height: 49px;
+	left: 350px;
+	top: 0;
+	border-right: 1px solid black;
+	border-top: 1px solid black;
+}
+
+#mid-left {
+	width: 148px;
+	height: 149px;
+	left: 0;
+	top: 50px;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+#mid-middle {
+	width: 98px;
+	height: 149px;
+	left: 200px;
+	top: 100px;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-top: 1px solid black;
+}
+
+#mid-right {
+	width: 148px;
+	height: 149px;
+	left: 350px;
+	top: 50px;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+#down-left {
+	width: 199px;
+	height: 48px;
+	left: 0;
+	top: 250px;
+	border-left: 1px solid black;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+#down-middle {
+	width: 100px;
+	height: 49px;
+	left: 200px;
+	top: 250px;
+	border-bottom: 1px solid black;
+}
+
+#down-right {
+	width: 199px;
+	height: 48px;
+	left: 300px;
+	top: 250px;
+	border-right: 1px solid black;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+#start {
+	width: 44px;
+	height: 44px;
+	left: 0;
+	top: 202px;
+	border: 1px solid black;
+	background-color: #88FF88;
+	font-size: 36px;
+	line-height: 44px;
+	text-align: center;
+}
+
+#end {
+	width: 44px;
+	height: 44px;
+	left: 454px;
+	top: 202px;
+	border: 1px solid black;
+	background-color: #8888FF;
+	font-size: 36px;
+	line-height: 44px;
+	text-align: center;
+}
+
+#rule {
+	width: 600px;
+	overflow: hidden;
+	margin: 10px auto;
+	font-size: 16px;
+}
+
+#wall {
+	width: 150px;
+	height: 40px;
+	border: 1px solid black;
+	background-color: #eeeeee;
+	margin: 10px auto;
+}
+
+.changed {
+	background-color: red;
+	cursor: auto;
+}

@@ -1,0 +1,67 @@
+/* Supporting line */
+div {
+  /*border: 1px solid red;*/
+}
+
+body {
+  font-family: "Microsoft Yahei", sans-serif;
+}
+
+h3,h4 {
+  text-align: center;
+}
+
+.main-container {
+  width: 400px;
+  height: 100%;
+  margin: auto;
+}
+
+.hud-div {
+  margin: auto;
+  width: 80%;
+  height: 55px;
+  position: relative;
+}
+
+.hud {
+  position: absolute;
+}
+
+.hud input {
+  width: 34px;
+}
+
+.hud-btn-toggle-game {
+  left: 0;
+  top: 0;
+}
+
+.hud-time {
+  right: 0;
+  top: 0;
+}
+
+.hud-status {
+  left: 0;
+  bottom: 0;
+}
+
+.hud-score {
+  right: 0;
+  bottom: 0;
+}
+
+.game-div {
+  width: 230px;
+  margin: 35px auto 0 auto;
+}
+
+.radio-div {
+  text-align: center;
+}
+
+.instruction {
+  width: 672px;
+  margin: 34px auto 0 auto;
+}

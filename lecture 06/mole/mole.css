@@ -1,0 +1,61 @@
+body {
+	font-family: Century Gothic, sans-serif;
+}
+
+p {
+	font-size: 24px;
+	text-align: center;
+}
+
+h1 {
+	font-size: 40px;
+	text-align: center;
+	font-weight: normal;
+}
+
+#message {
+	width: 280px;
+	margin: 10px auto;
+}
+
+.right {
+	float: right;
+}
+
+#time-count {
+	width: 40px;
+}
+
+#score {
+	width: 40px;
+}
+
+#status {
+	width: 135px;
+}
+
+#mole {
+	width: 240px;
+	height: 140px;
+	margin: 20px auto;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	padding: 15px 0;
+}
+
+#mole input {
+	width: 18px;
+	height: 18px;
+	margin: 1px;
+}
+
+#rule {
+	width: 670px;
+	overflow: hidden;
+	margin: 10px auto;
+	font-size: 14px;
+}
+
+#weight {
+	font-weight: bold;
+}
