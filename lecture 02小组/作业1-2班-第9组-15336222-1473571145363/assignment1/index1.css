@@ -1,0 +1,39 @@
+﻿blockquote{
+   text-align:center;   
+  font-size:30pt;
+  font-family :  "Century Gothic", Futura, Verdana,sans-serif;
+  color:#B0F470;
+text-shadow: 5px 5px 5px #68C114;
+line-height:200%
+  
+}
+h2{
+	text-align: center;
+
+	vertical-align : bottom;
+	font-size:30pt;
+	color:#B0F470;
+	text-decoration: none;
+	
+	margin: 1em;
+    padding: .5em 1em;
+
+    transition: color, background-color 300ms ease-in-out;
+
+    border: 1px solid #68C114;
+    border-radius: 0.5em;
+}
+h2:hover {
+    color: #212121;
+    background-color: #ebebeb;
+
+
+}
+a{
+	text-decoration: none;
+}
+body{
+		background-image:url("ipie.jpg");
+background-size:100% 150%;
+background-repeat:no-repeat;
+}

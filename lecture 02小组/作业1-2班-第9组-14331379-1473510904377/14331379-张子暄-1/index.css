@@ -1,0 +1,26 @@
+body{
+	background-image: url("http://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/silverware.jpg");
+	cursor: url(pic/cursor_default.cur), default;
+}
+
+h1  {
+	font-family:"Verdana";
+	font-size:50px;
+	color:orange;
+	position:absolute;
+	top:250px;
+	left:500px;
+	text-align:center;
+	font-style:normal;
+	text-decoration: underline;
+}
+h2 {
+	font-family:"Verdana";
+	font-size:30px;
+	color:orange;
+	position:absolute;
+	top:330px;
+	left:300px;
+	text-align:center;
+	font-style:normal;
+}

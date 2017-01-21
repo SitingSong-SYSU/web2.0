@@ -1,0 +1,81 @@
+body {
+	background-image: url("http://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/silverware.jpg");
+	background-color: white;
+	color: rgb(64, 64, 64);
+    font-size: 18pt;
+    font-family: Georgia, Garamond, serif;
+}
+
+h1, h2{
+	text-shadow: 5px 5px 5px rgb(111, 111, 0);
+	color: rgb(164, 164, 0);
+	font-family: "Century Gothic", Futura, Verdana, sans-serif;
+    text-decoration: underline;
+    background-color: rgb(240, 240, 240);
+}
+
+h1 {
+	font-size: 37pt;
+    text-align: center;
+}
+
+h2 {
+	font-size: 25pt;
+    text-align: left;
+}
+ul {
+	float: left;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+*.head {
+	float: left;
+	width: 6.5em;
+	text-decoration: none;
+	color: white;
+	background-color: rgb(143,120, 153);
+	padding:5px 20px;
+	border-right: 1px solid white;
+}
+
+*.head:hover {
+	background-color: rgb(164, 164, 0);
+}
+
+*.frame {
+    position:absolute;
+	width:1000px;
+	height:300px;
+	overflow:hidden;
+	border-radius:80px;
+}
+*.play img {
+	float:left;
+	width:300px;
+	height:300px;
+}
+*.play {  
+    position: absolute;
+    z-index:9;  
+    width: calc(300px * 10);
+    animation: ma 20s ease-out infinite alternate;
+}
+@keyframes ma {
+        0%,10% {        margin-left: 0px;       }         
+        10%,20% {       margin-left: -300px;    }
+        20%,30% {       margin-left: -600px;    }
+        30%,40% {       margin-left: -900px;    } 
+        40%,50% {       margin-left: -1200px;    }      
+        50%,60% {       margin-left: -1500px;    }      
+}
+
+*.linkimg {
+	border: none;
+}
+
+*.imgpie {
+	width:100px;
+	height:100px;
+}
