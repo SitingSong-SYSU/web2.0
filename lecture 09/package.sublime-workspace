@@ -1,0 +1,853 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"us",
+				"username"
+			],
+			[
+				"ur",
+				"urlTool"
+			],
+			[
+				"user",
+				"users"
+			],
+			[
+				"ti",
+				"timeShow"
+			],
+			[
+				"ch",
+				"changeMole"
+			],
+			[
+				"st",
+				"satrtGame"
+			],
+			[
+				"p",
+				"push"
+			],
+			[
+				"a",
+				"append"
+			],
+			[
+				"ga",
+				"gameCanvas"
+			],
+			[
+				"par",
+				"parent"
+			],
+			[
+				"co",
+				"content"
+			],
+			[
+				"tab",
+				"table"
+			],
+			[
+				"cl",
+				"clicked1"
+			],
+			[
+				"fo",
+				"font-weight"
+			],
+			[
+				"cheat",
+				"cheatBtn"
+			],
+			[
+				"this",
+				"thisBlock"
+			],
+			[
+				"se",
+				"setTimeout"
+			],
+			[
+				"rel",
+				"reload"
+			],
+			[
+				"te",
+				"temp"
+			],
+			[
+				"bl",
+				"blankBlock"
+			],
+			[
+				"thi",
+				"thisBlock"
+			],
+			[
+				"oc",
+				"opacity"
+			],
+			[
+				"pr",
+				"parseInt"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"ba",
+				"background-image"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"al",
+				"alert(\"请点击开始游戏"
+			],
+			[
+				"on",
+				"onclick"
+			],
+			[
+				"GA",
+				"gameTime"
+			],
+			[
+				"lef",
+				"leftTime"
+			],
+			[
+				"cha",
+				"changeMole"
+			],
+			[
+				"c",
+				"check"
+			],
+			[
+				"v",
+				"value"
+			],
+			[
+				"o",
+				"onClick"
+			],
+			[
+				"r",
+				"ran"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"bo",
+				"button	Tag"
+			],
+			[
+				"chan",
+				"changeWall"
+			],
+			[
+				"do",
+				"down-right"
+			],
+			[
+				"dow",
+				"down-left"
+			],
+			[
+				"onm",
+				"onmouseout"
+			],
+			[
+				"onmouseo",
+				"onmouseover"
+			],
+			[
+				"onmouse",
+				"onmouseout"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"mou",
+				"mouseout"
+			],
+			[
+				"me",
+				"messageBox"
+			],
+			[
+				"lin",
+				"line-height"
+			],
+			[
+				"li",
+				"list-style"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"ov",
+				"overflow"
+			],
+			[
+				"str",
+				"StrCompare"
+			],
+			[
+				"qu",
+				"queryNote"
+			],
+			[
+				"rea",
+				"readernum"
+			],
+			[
+				"t_",
+				"t_note"
+			],
+			[
+				"cr",
+				"creater"
+			],
+			[
+				"t",
+				"temp"
+			],
+			[
+				"S",
+				"Storage"
+			],
+			[
+				"m",
+				"m_storage"
+			],
+			[
+				"w",
+				"writeToFile"
+			],
+			[
+				"m_",
+				"m_storage"
+			],
+			[
+				"m_n",
+				"m_note"
+			],
+			[
+				"F",
+				"FALSE"
+			],
+			[
+				"Str",
+				"StrCompare"
+			],
+			[
+				"M",
+				"MAX_UXER"
+			],
+			[
+				"ma",
+				"malloc"
+			],
+			[
+				"m_re",
+				"m_reader"
+			],
+			[
+				"m_r",
+				"m_readernum"
+			],
+			[
+				"fp",
+				"fputs"
+			],
+			[
+				"ou",
+				"outNotes"
+			],
+			[
+				"foe",
+				"fopen"
+			],
+			[
+				"m_u",
+				"m_user"
+			],
+			[
+				"l",
+				"LINE_LEN"
+			],
+			[
+				"MA",
+				"MAX_LEN"
+			],
+			[
+				"su",
+				"SubString"
+			],
+			[
+				"string",
+				"string"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"tra",
+				"transition"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"tr",
+				"transform"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"baco",
+				"background-color"
+			],
+			[
+				"bac",
+				"background-repeat"
+			],
+			[
+				"wht",
+				"width"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"ro",
+				"rotten"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"f",
+				"font"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"b",
+				"bold"
+			],
+			[
+				"n",
+				"no-repeat"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"link",
+				"linker"
+			],
+			[
+				"s",
+				"strong	Tag"
+			],
+			[
+				"h",
+				"href	Attr"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 213.0,
+		"last_filter": "in",
+		"selected_items":
+		[
+			[
+				"in",
+				"Package Control: Install Package→安装插件"
+			],
+			[
+				"i",
+				"Package Control: Install Package→安装插件"
+			]
+		],
+		"width": 817.0
+	},
+	"console":
+	{
+		"height": 644.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/15软工/Web2.0/Lecture 09/signup/package.json",
+		"/D/15软工/Web2.0/Lecture 09/package.json",
+		"/D/15软工/Web2.0/Lecture 09/signup.jade",
+		"/D/15软工/Web2.0/Lecture 09/index.js",
+		"/D/15软工/Web2.0/Lecture 08/homework08 Table Sort/js/sorter.js",
+		"/D/15软工/Web2.0/Lecture 08/homework08 Table Sort/index.html",
+		"/D/15软工/Web2.0/Lecture 08/14970011_宋思亭_07/homework08 Table Sort/js/sorter.js",
+		"/D/15软工/Web2.0/Lecture 08/14970011_宋思亭_07/homework08 Table Sort/css/sorter.css",
+		"/D/15软工/Web2.0/Lecture 08/14970011_宋思亭_07/homework06/mole/mole.js",
+		"/D/15软工/Web2.0/Lecture 08/14970011_宋思亭_07/homework06_before/mole/mole.js",
+		"/D/15软工/Web2.0/Lecture 06/14970011_宋思亭_07/mole/mole.html",
+		"/D/15软工/Web2.0/Lecture 06/14970011_宋思亭_07/mole/mole.js",
+		"/D/15软工/Web2.0/Lecture 06/14970011_宋思亭_07/maze/maze.js",
+		"/D/15软工/Web2.0/Lecture 08/14970011_宋思亭_07/homework06_before/maze/maze.js",
+		"/D/15软工/Web2.0/Lecture 08/14970011_宋思亭_07/homework07_before/js/index.js",
+		"/D/15软工/Web2.0/Lecture 08/14970011_宋思亭_07/homework07/js/index.js",
+		"/D/15软工/Web2.0/Lecture 08/14970011_宋思亭_07/js/sorter.js",
+		"/D/15软工/Web2.0/Lecture 06/14970011_宋思亭_07/maze/maze.css",
+		"/D/15软工/Web2.0/Lecture 07/14970011_宋思亭_07/js/index.js",
+		"/D/15软工/Web2.0/Lecture 08/source-code/table-sorter/js/sorter.js",
+		"/D/15软工/Web2.0/Lecture 08/source-code/table-sorter/css/sorter.css",
+		"/D/15软工/Web2.0/Lecture 06/14970011_宋思亭_07/maze/maze.html",
+		"/D/15软工/Web2.0/Lecture 07/14970011_宋思亭_07/index.html",
+		"/D/15软工/Web2.0/Lecture 08/jquery.js",
+		"/D/15软工/Web2.0/Lecture 08/source-code/table-sorter/index.html",
+		"/D/15软工/Web2.0/Lecture 08/source-code/table-sorter/sorter.css",
+		"/D/15软工/Web2.0/Lecture 08/source-code/table-sorter/sorter.js",
+		"/D/15软工/Web2.0/Lecture 08/mwc_hw2-master/group5/13331183/table-sorter/sorter.css",
+		"/D/15软工/Web2.0/Lecture 08/mwc_hw2-master/group5/13331183/table-sorter/sorter.js",
+		"/D/15软工/Web2.0/Lecture 08/sorter.js",
+		"/D/15软工/Web2.0/Lecture 08/source-code/table-sorter/jquery.js",
+		"/D/15软工/Web2.0/Lecture 08/mwc_hw2-master/group5/12330393/static/js/style.js",
+		"/D/15软工/Web2.0/Lecture 08/mwc_hw2-master/group5/12330393/static/js/require.js",
+		"/D/15软工/Web2.0/Lecture 08/mwc_hw2-master/group5/12330393/static/js/main.js",
+		"/D/15软工/Web2.0/Lecture 08/mwc_hw2-master/group4/13331142/sorter.js",
+		"/D/15软工/Web2.0/Lecture 08/mwc_hw2-master/group4/13331142/sorter.css",
+		"/D/15软工/Web2.0/Lecture 08/mwc_hw2-master/group2/13331157/sorter.js",
+		"/D/15软工/Web2.0/Lecture 08/mwc_hw2-master/group1/13331069/sorter.js",
+		"/D/15软工/Web2.0/Lecture 08/mwc_hw2-master/group2/13331163/sorter.js",
+		"/D/15软工/Web2.0/Lecture 08/mwc_hw2-master/group2/14214168/sorter.js",
+		"/D/15软工/Web2.0/Lecture 08/mwc_hw2-master/group1/14214176/sorter.js",
+		"/D/15软工/Web2.0/Lecture 08/mwc_hw2-master/group5/13331270/table-sorter/sorter.js",
+		"/D/15软工/Web2.0/Lecture 08/mwc_hw2-master/group5/13331018/sorter.js",
+		"/D/15软工/Web2.0/Lecture 08/mwc_hw2-master/group6/13331369/sorter.js",
+		"/D/15软工/Web2.0/Lecture 08/mwc_hw2-master/group6/13331369/sorter.css",
+		"/D/15软工/Web2.0/Lecture 08/mwc_hw2-master/group6/13331369_zhouguocheng/sorter.js",
+		"/D/15软工/Web2.0/Lecture 08/mwc_hw2-master/group6/13331369_zhouguocheng/index.html",
+		"/D/15软工/Web2.0/Lecture 08/table-sorter.js",
+		"/D/15软工/Web2.0/Lecture 08/jquery.tablesorter/jquery.tablesorter.min.js",
+		"/D/15软工/Web2.0/Lecture 08/jquery.tablesorter/jquery.tablesorter.js",
+		"/D/15软工/Web2.0/Lecture 07/14970011_宋思亭_07/js/n-puzzle.js",
+		"/D/15软工/Web2.0/Lecture 07/14970011_宋思亭_07/css/index.css",
+		"/D/15软工/Web2.0/Lecture 07/NPuzzle-AI-master/js/index.js",
+		"/D/15软工/Web2.0/Lecture 07/14970011_宋思亭_07/css/Puzzle.css",
+		"/D/15软工/Web2.0/Lecture 07/n-puzzle.js",
+		"/D/15软工/Web2.0/Lecture 07/Puzzle.css",
+		"/D/15软工/Web2.0/Lecture 07/Puzzle.js",
+		"/D/15软工/Web2.0/Lecture 07/Puzzle.html",
+		"/D/15软工/Web2.0/Lecture 07/NPuzzle-AI-master/js/jquery-3.1.0.js",
+		"/D/15软工/Web2.0/Lecture 07/NPuzzle-AI-master/js/binary-heap.js",
+		"/D/15软工/Web2.0/Lecture 07/NPuzzle-AI-master/index.html",
+		"/D/15软工/Web2.0/Lecture 07/NPuzzle-AI-master/js/n-puzzle.js",
+		"/D/15软工/Web2.0/Lecture 07/jigsaw/jigsaw.html",
+		"/D/15软工/Web2.0/Lecture 07/15331220_刘沅昊_07/javascript.js",
+		"/D/15软工/Web2.0/Lecture 04/14970011_宋思亭_07/style.css",
+		"/D/15软工/Web2.0/Lecture 07/tempPuzzle.js",
+		"/D/15软工/Web2.0/Lecture 07/test.html",
+		"/D/15软工/Web2.0/Lecture 05/14970011_宋思亭_07/style.css",
+		"/D/15软工/Web2.0/Lecture 06/14970011_宋思亭_07/mole/mole.css",
+		"/D/15软工/Web2.0/Lceture 02/lecture 02/index.css",
+		"/D/15软工/Web2.0/Lceture 02/lecture 02/index.html",
+		"/D/15软工/Web2.0/Lecture 07/Fifteen Puzzle.html",
+		"/D/15软工/Web2.0/Lecture 07/Fifteen Puzzle.js",
+		"/D/15软工/Web2.0/Lecture 07/Fifteen Puzzle.css",
+		"/D/15软工/Web2.0/Lecture 07/maze.js",
+		"/D/15软工/Web2.0/Lecture 06/mole.js",
+		"/D/15软工/Web2.0/Lecture 06/mole.css",
+		"/D/15软工/Web2.0/Lecture 06/mole.html",
+		"/D/15软工/Web2.0/Lecture 06/test.html",
+		"/D/15软工/Web2.0/Lecture 05/14970011_宋思亭_07/calculate.js",
+		"/D/15软工/Web2.0/Lecture 05/14970011_宋思亭_07/Calculator.html",
+		"/D/15软工/Web2.0/Lecture 06/maze/maze.js",
+		"/D/15软工/Web2.0/Lecture 06/maze/maze.html",
+		"/D/15软工/Web2.0/Lecture 06/maze/maze.css",
+		"/D/15软工/Web2.0/Lecture 06/maze.js",
+		"/D/15软工/Web2.0/Lecture 06/style.css",
+		"/D/15软工/Web2.0/Lecture 06/maze.html",
+		"/D/15软工/Web2.0/Lecture 05/作业4-2班-第9组-14331379-张子暄-1475158398955/作业4/index.html",
+		"/D/15软工/Web2.0/Lecture 05/作业4-2班-第9组-14331379-张子暄-1475158398955/作业4/index.js",
+		"/D/15软工/ms/regex.c",
+		"/D/15软工/ms/regex.h",
+		"/D/15软工/ms/C语言文本编辑器.cpp",
+		"/D/15软工/Web2.0/Lecture 05/作业4-2班-第9组-15331034-陈湘仪-1475851627910/15331034_陈湘仪_第九组/calculate.js",
+		"/D/15软工/Web2.0/Lecture 05/作业4-2班-第9组-15331034-陈湘仪-1475851627910/15331034_陈湘仪_第九组/calculator.html",
+		"/D/15软工/Web2.0/Lecture 05/作业4-2班-第9组-14331379-张子暄-1475158398955/作业4/index.css",
+		"/D/15软工/ms/HString.cpp",
+		"/D/15软工/ms/Note.cpp",
+		"/D/15软工/ms/Service.cpp",
+		"/D/15软工/ms/Storage.cpp",
+		"/D/15软工/15软工 大一下/实训I/14970011-Agenda/Agenda/src/Date.cpp",
+		"/D/15软工/15软工 大一下/实训I/14970011-Agenda/Agenda/src/User.cpp",
+		"/D/15软工/ms/C语言文本编辑器.c",
+		"/D/15软工/Web2.0/Lecture 05/calculate.js",
+		"/D/15软工/Web2.0/Lecture 05/style.css",
+		"/D/15软工/Web2.0/Lecture 05/Calculator.html",
+		"/J/Lecture 05/style.css",
+		"/D/15软工/Web2.0/Lecture 04/14970011_宋思亭_07/index.html",
+		"/D/15软工/Web2.0/Lecture 04/作业3-2班-第15组-15331436-朱楚-1474790753019/StyleSheet.css",
+		"/D/15软工/Web2.0/Lecture 04/作业3-2班-第15组-15331436-朱楚-1474718310739/StyleSheet.css",
+		"/D/15软工/Web2.0/Lecture 04/Lecture 04/style.css",
+		"/D/15软工/Web2.0/Lecture 04/Lecture 04/index.html",
+		"/D/15软工/Web2.0/Lecture 04/作业3-2班-第15组-15331436-朱楚-1474718310739/index.html",
+		"/D/15软工/Web2.0/Lecture 04/style.css",
+		"/D/15软工/Web2.0/Lecture 04/index.html",
+		"/D/15软工/Web2.0/style.css",
+		"/D/15软工/Web2.0/test.html",
+		"/D/15软工/Web2.0/201410082353019419/2014-10-08-circle-nav/index.html",
+		"/D/15软工/Web2.0/52201429583207859/72567/index3.html",
+		"/D/15软工/Web2.0/52201429583207859/72567/index.html",
+		"/D/15软工/Web2.0/html5-css3-circle-menu/css/style.css",
+		"/D/15软工/Web2.0/Lceture 03/Lecture 03/movie.css",
+		"/D/15软工/Web2.0/Lceture 03/Lecture 03/tmnt.html",
+		"/D/15软工/Web2.0/Lceture 02/lecture 02/pie.html",
+		"/D/15软工/Web2.0/Lceture 03/Lecture 03/skeleton.html",
+		"/D/15软工/Web2.0/Lceture 03/作业2-2班-第16组-15331252-彭琛-1474172977494/tmnt.html",
+		"/D/15软工/Web2.0/Lceture 03/作业2-2班-第16组-15336028-崔家维-1474186614610/15336028-崔家维/tmnt.html",
+		"/D/15软工/Web2.0/Lceture 03/作业2-2班-第16组-15336028-崔家维-1474186614610/15336028-崔家维/movie.css",
+		"/D/15软工/Web2.0/Lceture 03/作业2-2班-第16组-15331038-陈序-1474214714786/02/movie.css"
+	],
+	"find":
+	{
+		"height": 46.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\"",
+			"    ",
+			"	",
+			"\n",
+			".(",
+			"onmouseover = ",
+			"document.getElementById(\"",
+			"class",
+			"getI",
+			"getID",
+			"normal",
+			"siblings",
+			"parents",
+			"click",
+			"102",
+			"#",
+			"setPuzzleWithNode",
+			"move",
+			"game.imgArray[i].id == 15",
+			"id",
+			"imgArray",
+			"BinaryHeap",
+			".val",
+			"setPuzzleWithNode",
+			"curNode",
+			"steps",
+			"desNode",
+			"NPuzzleNode",
+			"NONE",
+			"imgArray",
+			"NPuzzleNode",
+			"desNode",
+			"imgArray",
+			"desNode",
+			"help",
+			"pathIndex",
+			"blocks",
+			"attr",
+			"time",
+			"run",
+			"NPuzzle",
+			"cheat",
+			"0.5",
+			"document.getElementById",
+			"time",
+			"demo",
+			"abs",
+			".background-img",
+			"moveBlockToBlank",
+			"initPicBlocks()",
+			"showAllPicBlocks()",
+			"showAllPicBlocks();",
+			"Demo",
+			"88*3",
+			"88*2",
+			"#background-img",
+			"ab",
+			"#row",
+			".background-img",
+			"Image",
+			"setOpacity",
+			"step",
+			"desTip",
+			"vvg",
+			"vvgBox",
+			"startDiy",
+			"imgUrl",
+			"step",
+			"desTip",
+			"makeGame",
+			" value=\"\" ",
+			"pointer",
+			"num",
+			"dis",
+			">\n",
+			"li",
+			"regex",
+			"regcomp",
+			"calu-btn",
+			"m_storage->",
+			"m_storage.",
+			"filename",
+			"Index",
+			"30",
+			"white",
+			"active",
+			"screen",
+			"event.ctrlKey",
+			"trim",
+			"prototype",
+			"clearnote",
+			"result",
+			"numshow",
+			"break",
+			"trim",
+			"operate",
+			"command",
+			"hover",
+			"icon",
+			"28",
+			"size",
+			"0.5s 0.5s",
+			"0.2",
+			"delay",
+			"0;",
+			"sca",
+			"size",
+			"200",
+			"opac",
+			"hover",
+			"page",
+			"display: inline-block;",
+			"#info-bar",
+			"opacity: 0;",
+			"#info-bar",
+			"0;",
+			"ho",
+			".info",
+			"page",
+			"hov",
+			"0;",
+			"ul",
+			"transition",
+			"delay",
+			".mine",
+			"#control-ring",
+			"size",
+			"white"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\\\"",
+			"",
+			"(",
+			"mouseover.(",
+			"$(\"#",
+			"game.imgArray",
+			"game.curNode",
+			"cheatBtn",
+			"0.3",
+			"autoPlay",
+			"Math.abs",
+			"#background-img",
+			"264",
+			"176",
+			".background-img",
+			"#col",
+			"#background-img",
+			" ",
+			"flag",
+			"div",
+			"dis",
+			"m_instance.",
+			"m_storage->",
+			"event.shiftKey",
+			"0.5s 0.2s",
+			"0.5",
+			"40",
+			"rgb(144,144,144)",
+			"relative",
+			"/div",
+			"div id=\"str\"",
+			"str"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "package.sublime-project",
+	"replace":
+	{
+		"height": 83.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

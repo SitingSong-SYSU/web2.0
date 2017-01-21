@@ -1,0 +1,41 @@
+<!DOCTYPE <html>
+<head>
+	<title>detail</title>
+	<link rel="stylesheet" type="text/css" href="css/register.css">
+	<script src="js/jquery.js" type="text/javascript"></script>
+	<script src="js/lodash.js" type="text/javascript"></script>
+	<script type="text/javascript" src="js/register.js"></script>
+</head>
+<body>
+	<div class="area">
+		<h1>详细信息</h1>
+		<div id="notice">invisible</div>
+		<form action="/getPost" method="post">
+			<div class="input_area">
+				<label for="username">用户名</label>
+				<input name="username" id="username" type="text" oninput="checkName()" />
+				<div id="name_tip" class="tip"></div>
+			</div>
+			<div class="input_area">
+				<label for="id">学号</label>
+				<input name="id" id="id" type="text" oninput="checkId()" />
+				<div id="id_tip" class="tip"></div>
+			</div>
+			<div class="input_area">
+				<label for="phone">电话</label>
+				<input name="phone" id="phone" type="text" oninput="checkPhone()" />
+				<div id="phone_tip" class="tip"></div>
+			</div>
+			<div class="input_area">
+				<label for="email">邮箱</label>
+				<input name="email" id="email" type="text" oninput="checkEmail()" />
+				<div id="email_tip" class="tip"></div>
+			</div>
+			<div class="button_area">
+				<input type="submit" name="提交" />
+				<input type="reset" name="重置" />
+			</div>
+		</form>
+	<div>
+</body>
+</html>

@@ -1,0 +1,64 @@
+body {
+	padding: 40px;
+	font-weight: bold;
+}
+
+
+form#signup {
+	margin: 0 auto;
+	width: 400px;
+	border: 4px groove grey;
+}
+
+h1 {
+	text-align: center;
+}
+
+form#signup div:not(.error) {
+	width: 400px;
+	margin: 0 auto;
+	height: 60px;
+}
+
+form#signup label {
+	display: inline-block;
+	width: 60px;
+	text-align: right;
+	padding-right: 20px;
+}
+
+form#signup input {
+	width: 300px;
+	font-size: 18px;
+}
+
+.error {
+	width: 400px;
+	color: #C00;
+	margin: 10px auto;
+	line-height: 24px;
+}
+
+form #signup span.error {
+	display: inline-block;
+	width: 25%;
+	padding: 10px;
+}
+
+div.button {
+	text-align: center;
+}
+
+form#signup input.button {
+	display: inline-block;
+	width: 120px;
+	height: 40px;
+	color: white;
+	border-radius: 2px;
+	font-size: 18px;
+	padding: 10px 8px;
+	border: none;
+	cursor: pointer;
+	margin: 0 25px;
+	background-color: #20b2aa;
+}

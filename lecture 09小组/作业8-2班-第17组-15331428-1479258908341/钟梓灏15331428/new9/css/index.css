@@ -1,0 +1,61 @@
+body {
+	background-image: url('img.jpg');
+}
+
+h1 {
+	text-align: center;
+	font-size: 30pt;
+}
+
+#tip {
+	padding-left:38%;
+}
+
+ol {
+	font:20pt bold;
+	color:black;
+	text-shadow: 0px 0px 5px white;
+	padding-bottom: 20px;
+}
+
+li {
+	text-shadow: none;
+}
+
+form {
+	text-align: left;
+	text-shadow: 0px 0px 10px white;
+	font:20pt bold;
+	padding-left:45%;
+}
+
+input {
+	width: 200px;
+	height:30px;
+	font:20pt bold;
+	display: inline;
+}
+
+#submit, #reset {
+	text-align: center;
+	font:15pt bold;
+	width:60px;
+	margin-left: 3%;
+}
+
+p {
+	color: red;
+	text-shadow: 0px 0px 10px white;
+	text-align: center;
+	display: inline-block;
+	margin:0;
+	padding: 0;
+}
+
+div {
+	padding: 15px;
+}
+
+.wrong {
+	color:red;
+}

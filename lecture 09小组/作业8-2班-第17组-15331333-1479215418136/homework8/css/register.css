@@ -1,0 +1,80 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	margin-left: 98px;
+	/*margin-top: -20px;*/
+}
+.area {
+	position: relative;
+	height: 500px;
+	width: 580px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid silver;
+	padding-top: 50px;
+}
+.input_area {
+	/*margin-sstop: 20px;*/
+	/*position: absolute;*/
+	/*margin-top: 30px;*/
+	width: 350px;
+	height: 40px;
+	/*border: 1px solid black;*/
+	margin: 20px;
+	margin-left: 100px;
+}
+#username, #id, #phone, #email {
+	left: 180px;
+}
+.input_area input {
+	width: 180px;
+	position: absolute;
+}
+.button_area {
+	margin-left: 100px;
+}
+.button_area input {
+	margin: 20px;
+}
+.tip {
+	position: absolute;
+	right: 50px;
+	width: 160px;
+	height: 30px;
+	display: inline-block;
+	/*border: 1px solid blue;*/
+	font-size: 15px;
+	color: green;
+}
+.warn {
+	/*border: 2px solid black;*/
+	position: absolute;
+	right: 50px;
+	width: 160px;
+	height: 30px;
+	display: inline-block;
+	/*border: 1px solid blue;*/
+	font-size: 15px;
+	color: red;
+}
+#notice {
+	color: white;
+}
+#repeat_notice {
+	color: red;
+	font-size: 15px;
+	margin-left: 100px;
+}
+#submit, #reset {
+	width: 50px;
+	height: 40px;
+	font-size: 15pt;
+}
+#submit {
+	margin-left: 80px;
+}
+#reset {
+	margin-left: 20px;
+}

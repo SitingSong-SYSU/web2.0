@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>学生注册系统</title>
+    <meta charset="utf-8">
+    <link href="index.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="lodash.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+  </head>
+  <body>
+  	<h1>学生注册系统</h1>
+  	<div id="tip">
+		<ol>信息填写须知
+			<br /><br />
+			<li>用户名6-18位,可为英文字母、数字或下划线，必须以英文字母开头</li>
+  		<li>学号8位数字，不能以0开头</li>
+  		<li>电话11位数字，不能以0开头</li>
+  		<li>邮箱除@与.外只含有字母</li>
+		</ol>
+  	</div>
+  	<form action="" method="post" id="form">
+		<div>
+      <input type="text" name="user" placeholder="用户名" id="user" class="input" autocomplete="off">
+      <p id="wronguser"></p>
+    </div>
+		<div>
+      <input type="text" name="number" placeholder="学号" id="number" class="input" autocomplete="off">
+      <p id="wrongnumber"></p>
+    </div>
+		<div>
+      <input type="text" name="phone" placeholder="电话" id="phone" class="input" autocomplete="off">
+      <p id="wrongphone"></p>
+    </div>
+		<div>
+      <input type="text" name="email" placeholder="邮箱" id="email" class="input" autocomplete="off">
+      <p id="wrongemail"></p>
+    </div>
+		<input type="button" name="submit" value="提交" id="submit">    
+		<input type="reset" name="reset" value="重置" id="reset">
+    <p id="wrongsubmit"></p>
+  	</form>
+  </body>
+ </html>
